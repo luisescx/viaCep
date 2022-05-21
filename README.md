@@ -13,7 +13,7 @@
   <li>Clonar o projeto</li>
   <li>Entrar pasta na raiz e executar o comando <strong>yarn</strong></li>
   <li>Executar o projeto com o comando <strong>yarn quasar dev</strong></li>
-  <li>O projeto será executado na porta no <strong>http://localhost:8080</strong></li>
+  <li>O projeto será executado na porta <strong>http://localhost:8080</strong></li>
 </ul>
 
 ## :speech_balloon: Funcionalidades
