@@ -1,31 +1,33 @@
-# Via cep (viacep)
+<h1 align="center">
+  Via cep
+</h1>
 
-Via cep
+<h5 align="center">
+  Projeto feito utilizando a API pública ViaCEP
+</h5>
 
-## Install the dependencies
-```bash
-yarn
-# or
-npm install
-```
+![](./public/images/preview.png)
+## :rocket: Como executar
 
-### Start the app in development mode (hot-code reloading, error reporting, etc.)
-```bash
-quasar dev
-```
+<ul>
+  <li>Clonar o projeto</li>
+  <li>Entrar pasta na raiz e executar o comando <strong>yarn</strong></li>
+  <li>Executar o projeto com o comando <strong>yarn quasar dev</strong></li>
+  <li>O projeto será executado na porta no <strong>http://localhost:8080</strong></li>
+</ul>
 
+## :speech_balloon: Funcionalidades
 
-### Lint the files
-```bash
-yarn lint
-# or
-npm run lint
-```
+<ul>
+  <li>Busca por CEPs válidos</li>
+  <li>Endereços salvos ficam salvos no locastorage</li>
+  <li>Exclusão de endereços buscados</li>
+</ul>
 
-### Build the app for production
-```bash
-quasar build
-```
+## ⌨️ Tecnologias
 
-### Customize the configuration
-See [Configuring quasar.conf.js](https://v1.quasar.dev/quasar-cli/quasar-conf-js).
+<ul>
+  <li>VueJs</li>
+  <li>Quasar</li>
+  <li>Axios</li>
+</ul>
