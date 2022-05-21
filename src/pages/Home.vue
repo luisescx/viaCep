@@ -177,6 +177,7 @@ export default {
       if (index >= 0) {
         this.locations.splice(index, 1);
         removeLocationFromStorage(locationZipCode);
+        this.notification({ message: 'Endereço excluído com sucesso', type: 'positive' });
       }
     },
   },
