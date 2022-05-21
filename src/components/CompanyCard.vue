@@ -1,7 +1,7 @@
 <template>
     <div class="container">
-      <q-item-label class="text-subtitle1">Surreal São Paulo</q-item-label>
-      <q-item-label class="text-caption">VTEX</q-item-label>
+      <q-item-label class="text-subtitle1 text-weight-bold">Surreal São Paulo</q-item-label>
+      <q-item-label class="text-caption text-weight-regular">VTEX</q-item-label>
     </div>
 </template>
 
