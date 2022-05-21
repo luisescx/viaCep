@@ -1,5 +1,5 @@
 <template>
-  <q-card class="row col-md-7 col-12 bg-white q-pa-lg address-container">
+  <q-card class="row col-md-9 col-12 bg-white q-pa-lg address-container">
     <q-icon
       name="img:icons/place.svg"
       size="md"

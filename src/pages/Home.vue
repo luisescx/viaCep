@@ -5,7 +5,7 @@
         ref="zipCodeInput"
         outlined
         label="Insira o CEP"
-        class="col-md-3 col-12"
+        class="col-md-4  col-12 q-mt-md"
         mask="##.###-###"
         unmasked-value
         v-model="zipCode"
@@ -17,7 +17,7 @@
 
       <q-btn
         color="primary"
-        class="col-md-3 offset-md-1 col-12 text-weight-bold"
+        class="col-md-4 offset-md-1 col-12 text-weight-bold q-mt-md"
         padding="md"
         @click="addAddress"
         >
@@ -41,7 +41,7 @@
 
     <div class="row q-my-xl">
       <q-btn color="primary"
-        class="col-md-3 offset-md-4 col-12 q-ml-xl text-weight-bold"
+        class="col-md-4 offset-md-5 col-12 text-weight-bold"
         padding="md"
         label="Gerar endereços"
         :disable="!(zipCodeList.length > 0)"
@@ -159,6 +159,8 @@ export default {
         isError = true;
       } finally {
         this.$q.loading.hide();
+        this.$refs.zipCodeInput.resetValidation();
+
         this.zipCodeList = [];
         this.zipCode = null;
 
