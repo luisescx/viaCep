@@ -18,11 +18,12 @@
 
         <q-separator vertical dark/>
 
-        <div class="q-px-lg">Olá, Joaquim</div>
+        <div class="q-px-lg text-weight-bold">Olá, Luis</div>
 
         <q-icon
           name="img:icons/user.svg"
           size="54px"
+          class="q-mr-lg"
         />
       </q-toolbar>
     </q-header>
